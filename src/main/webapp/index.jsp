@@ -1,7 +1,7 @@
 
 <html>
 <body>
-<h1 style="color: red;">Hello MIOLA!</h1>
+<h1 style="color: green;">Hello MIOLA!</h1>
   <h2>Atelier Jenkins</h2>
   <h2>What is Continous Deployment?</h2>
   <p>
