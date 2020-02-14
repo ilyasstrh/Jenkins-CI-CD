@@ -76,7 +76,6 @@ pipeline {
 stage ('Unit-test') {
 steps {
 echo "running junit tests";
- sh './gradlew check';
 }
 }
 stage ('Quality-Gate') {
@@ -90,11 +89,7 @@ echo "Deploy tests";
 }
 }
 }
-   post {
-        always {
-            junit 'build/reports/*/.xml'
-        }
-    }
+  
 }
 ```
 
